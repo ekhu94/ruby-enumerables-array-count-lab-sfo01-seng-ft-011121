@@ -3,7 +3,7 @@ def count_strings(arr)
 end
 
 def count_empty_strings(arr)
-  arr.count { |ele| ele.is_a? String && ele == "" }
+  arr.count { |ele| (ele.is_a? String) && (ele == "") }
 end
 
 array = [ "", "Hello", 4, [], "", "" ]
